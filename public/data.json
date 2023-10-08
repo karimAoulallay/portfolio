@@ -37,7 +37,7 @@
       "links": [
         {
           "src": "github",
-          "url": "https://github.com/karimAoulallay/url-shortner",
+          "url": "https://github.com/karimAoulallay/Url-shortening",
           "icon": "./icons/github.svg"
         },
         {
@@ -55,12 +55,12 @@
       "links": [
         {
           "src": "github",
-          "url": "https://github.com/karimAoulallay/abdelkarim-aoulallay",
+          "url": "https://github.com/karimAoulallay/portfolio",
           "icon": "./icons/github.svg"
         },
         {
           "src": "live",
-          "url": "https://karimaoulallay.github.io/abdelkarim-aoulallay/",
+          "url": "https://abdelkarim-aoulallay.netlify.app/",
           "icon": "./icons/website-link.svg"
         }
       ]
