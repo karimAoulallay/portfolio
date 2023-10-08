@@ -143,5 +143,5 @@ form :is(input, textarea):focus {
       rgba(245, 245, 245, 0.8),
       rgb(167 167 167 / 92%)
     ),
-    url(./images/hero-bg.svg);
+    url(/images/hero-bg.svg);
 }
