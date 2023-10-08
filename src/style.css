@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Sora", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  :root {
+    --text: #040606;
+    --background: #f9fbfa;
+    --primary: #3e3749;
+    --secondary: #dbdbdb;
+    --accent: #7844e9;
+    --paragraph: #363535;
+  }
+  .dark {
+    --text: #f9fbfb;
+    --background: #040605;
+    --primary: #bdb6c8;
+    --secondary: #372a2b;
+    --accent: #4a16bb;
+  }
+}
+
+[aria-expanded="false"] * {
+  transition: 0.5s transform 0.5s, 0.5s rotate, 0.5s opacity 0.5s;
+  transform-origin: center;
+}
+
+[aria-expanded="true"] * {
+  transition: 0.5s transform, 0.5s rotate 0.5s, 0.5s opacity;
+  transform-origin: center;
+}
+
+[aria-expanded="true"] #lineTwo {
+  opacity: 0;
+}
+
+[aria-expanded="true"] #lineOne {
+  rotate: -45deg;
+  transform: translateY(10px);
+}
+
+[aria-expanded="true"] #lineThree {
+  rotate: 45deg;
+  transform: translateY(-10px);
+}
+
+[aria-expanded="false"] #lineThree,
+[aria-expanded="false"] #lineOne {
+  rotate: 0;
+  transform: translateY(0);
+}
+
+/* Open Navigation menu */
+
+[aria-expanded="true"] + nav {
+  display: flex;
+}
+
+#url-input {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 50%,
+    hsl(0, 0%, 95%) 50%
+  );
+}
+
+.image-container {
+  position: relative;
+  outline: solid var(--text) 2px;
+  border-radius: 5px;
+  isolation: isolate;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+#about li:first-child button.tabIndexZero::after {
+  transform: translateX(0%);
+}
+
+#about li:first-child button.tabIndexOne::after {
+  transform: translateX(100%);
+}
+
+@media (min-width: 1024px) {
+  #about li:first-child button.tabIndexZero::after {
+    transform: translateX(-50%);
+  }
+
+  #about li:first-child button.tabIndexOne::after {
+    transform: translateX(-50%) translateY(100%);
+  }
+}
+
+/* Projects section for full width screen */
+
+.full-width-screen > :not(img) {
+  padding: 1rem;
+}
+
+.full-width-screen > div {
+  background-image: linear-gradient(120deg, var(--secondary), transparent);
+}
+
+.full-width-screen:nth-child(odd) > div {
+  background-image: linear-gradient(210deg, var(--secondary), transparent);
+}
+
+@media (min-width: 1024px) {
+  .full-width-screen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 0;
+  }
+
+  .full-width-screen:nth-child(odd) > div {
+    order: -1;
+  }
+}
+
+form :is(input, textarea):focus {
+  outline: 2px solid var(--accent);
+}
+
+#hero,
+#contact {
+  background-image: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgb(167 167 167 / 92%)
+    ),
+    url(./images/hero-bg.svg);
+}

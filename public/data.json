@@ -1,0 +1,69 @@
+{
+  "skills": [
+    "html",
+    "css",
+    "javaScript",
+    "tailwindcss",
+    "bootstrap",
+    "react",
+    "react-router",
+    "laravel",
+    "mysql",
+    "sql",
+    "git",
+    "github",
+    "vsCode",
+    "figma"
+  ],
+  "projects": [
+    {
+      "title": "Sport club",
+      "image": "images/club-sport.png",
+      "tools": ["laravel", "mysql", "bootstrap", "figma"],
+      "description": "This project, part of my full-stack developer diploma, is a comprehensive Sports Club Management System. It empowers club administrators to efficiently manage activities and plans with CRUD operations. Additionally, members can update their profiles easily.",
+      "links": [
+        {
+          "src": "github",
+          "url": "https://github.com/karimAoulallay/club-sport",
+          "icon": "./icons/github.svg"
+        }
+      ]
+    },
+    {
+      "title": "url shortner",
+      "image": "images/url-shortner.png",
+      "tools": ["DOM Manipulation", "api", "tailwindcss", "localStorage"],
+      "description": "My URL Shortener project is a handy web application designed to simplify and streamline the process of shortening long URLs. Users can input a lengthy URL, and in return, they receive a shortened, more manageable link. The project leverages an external API to perform the URL shortening process efficiently.",
+      "links": [
+        {
+          "src": "github",
+          "url": "https://github.com/karimAoulallay/url-shortner",
+          "icon": "./icons/github.svg"
+        },
+        {
+          "src": "live",
+          "url": "https://karimaoulallay.github.io/Url-shortening/",
+          "icon": "./icons/website-link.svg"
+        }
+      ]
+    },
+    {
+      "title": "portfolio",
+      "image": "images/portfolio.png",
+      "tools": ["react", "tailwind", "figma"],
+      "description": "My portfolio website is a dynamic showcase of my journey as a web developer. It's an ongoing project that reflects my skills, experiences, and creativity.",
+      "links": [
+        {
+          "src": "github",
+          "url": "https://github.com/karimAoulallay/abdelkarim-aoulallay",
+          "icon": "./icons/github.svg"
+        },
+        {
+          "src": "live",
+          "url": "https://karimaoulallay.github.io/abdelkarim-aoulallay/",
+          "icon": "./icons/website-link.svg"
+        }
+      ]
+    }
+  ]
+}
