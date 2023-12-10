@@ -33,7 +33,7 @@ const Hero = () => {
               className="font-bold text-3xl text-accent mb-2
               md:text-5xl lg:text-6xl xl:text-7xl"
             >
-              Front-end Developer
+              Web Developer
             </h1>
             <p
               className="mb-6 text-sm text-paragraph
