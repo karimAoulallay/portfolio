@@ -13,9 +13,39 @@
     "git",
     "github",
     "vsCode",
-    "figma"
+    "figma",
+    "mongodb",
+    "nodejs",
+    "expressjs"
   ],
   "projects": [
+    {
+      "title": "Audiophle E-commerce",
+      "image": "images/audiophile-ecommerce.png",
+      "tools": [
+        "react",
+        "react-router",
+        "context api",
+        "tailwindcss",
+        "nodejs",
+        "expressjs",
+        "mongodb",
+        "mongoose"
+      ],
+      "description": "This full-stack e-commerce application, built using the MERN stack (MongoDB, Express, React, Node.js), features user authentication with JWT and secure token management. It includes a dynamic product management system with data seeded from a JSON file, a custom checkout process, and HTTP-only cookies for enhanced security against CSRF attacks. This project highlights my skills in full-stack development and implementing advanced security features.",
+      "links": [
+        {
+          "src": "github",
+          "url": "https://github.com/karimAoulallay/audiophile-ecommerce",
+          "icon": "./icons/github.svg"
+        },
+        {
+          "src": "live",
+          "url": "https://audiophile-ecommerce-vk94.onrender.com/",
+          "icon": "./icons/website-link.svg"
+        }
+      ]
+    },
     {
       "title": "Sport club",
       "image": "images/club-sport.png",
@@ -26,24 +56,6 @@
           "src": "github",
           "url": "https://github.com/karimAoulallay/club-sport",
           "icon": "./icons/github.svg"
-        }
-      ]
-    },
-    {
-      "title": "url shortner",
-      "image": "images/url-shortner.png",
-      "tools": ["DOM Manipulation", "api", "tailwindcss", "localStorage"],
-      "description": "My URL Shortener project is a handy web application designed to simplify and streamline the process of shortening long URLs. Users can input a lengthy URL, and in return, they receive a shortened, more manageable link. The project leverages an external API to perform the URL shortening process efficiently.",
-      "links": [
-        {
-          "src": "github",
-          "url": "https://github.com/karimAoulallay/Url-shortening",
-          "icon": "./icons/github.svg"
-        },
-        {
-          "src": "live",
-          "url": "https://karimaoulallay.github.io/Url-shortening/",
-          "icon": "./icons/website-link.svg"
         }
       ]
     },
