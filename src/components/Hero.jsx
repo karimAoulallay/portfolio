@@ -23,25 +23,25 @@ const Hero = () => {
                 className={`relative duration-500 font-bold text-3xl ${
                   flipText ? "-translate-y-full" : "translate-y-0"
                 }
-            md:text-5xl lg:text-6xl xl:text-7xl
-            after:content after:content-['Aoulallay'] after:absolute after:w-full after:h-full after:left-0 after:top-full`}
+            md:text-5xl lg:text-6xl xl:text-7xl py-2
+            after:content after:content-['Abdelkarim'] after:absolute after:w-full after:h-full after:left-0 after:top-full`}
               >
-                Abdelkarim
+                Aoulallay
               </h2>
             </div>
             <h1
               className="font-bold text-3xl text-accent mb-2
               md:text-5xl lg:text-6xl xl:text-7xl"
             >
-              Web Developer
+              Full Stack Developer
             </h1>
             <p
               className="mb-6 text-sm text-paragraph
             md:text-base xl:max-w-lg"
             >
-              I'm a web developer who enjoys developing creative applications. I
-              have two years of experience with frontend & backend. I also have
-              an eye for UI/UX design.
+              I'm a web Full-Stack developer who enjoys developing creative
+              applications. I have two years of experience with frontend &
+              backend. I also have an eye for UI/UX design.
             </p>
             <div
               className="flex justify-center gap-8
@@ -68,18 +68,6 @@ const Hero = () => {
                 <img
                   src="./icons/linkedin.svg"
                   alt="linkedin icon"
-                  className="w-6 lg:w-7 xl:w-8"
-                />
-              </a>
-              <a
-                href="https://twitter.com/karim_aoulallay"
-                target="_blank"
-                rel="noreferrer"
-                className="p-1 rounded-md hover:bg-secondary duration-300 border-2 border-transparent hover:border-primary"
-              >
-                <img
-                  src="./icons/x.svg"
-                  alt="x icon"
                   className="w-6 lg:w-7 xl:w-8"
                 />
               </a>

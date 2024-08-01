@@ -30,11 +30,11 @@ const App = () => {
         <Contact />
         <button
           onClick={handleCLick}
-          className={`fixed bottom-8 right-8 bg-accent rounded-md text-background -rotate-90 block h-10 aspect-square hover:opacity-80 ${
+          className={`fixed bottom-8 right-8 bg-accent rounded-md text-background flex justify-center items-center h-10 aspect-square hover:opacity-80 ${
             showScrollButton ? "visible" : "hidden"
           }`}
         >
-          &#9654;
+          <img src="./icons/up-arrow.svg" alt="arrow icon" className="w-4" />
         </button>
         <Footer />
       </main>

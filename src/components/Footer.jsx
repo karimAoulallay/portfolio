@@ -35,18 +35,6 @@ const Footer = () => {
                 className="w-6 lg:w-7 xl:w-8"
               />
             </a>
-            <a
-              href="https://twitter.com/karim_aoulallay"
-              target="_blank"
-              rel="noreferrer"
-              className="p-1 rounded-md bg-slate-300 hover:opacity-70"
-            >
-              <img
-                src="./icons/x.svg"
-                alt="x icon"
-                className="w-6 lg:w-7 xl:w-8"
-              />
-            </a>
           </div>
         </div>
       </div>
