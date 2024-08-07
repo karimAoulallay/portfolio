@@ -70,10 +70,21 @@
 }
 
 .image-container {
-  position: relative;
-  outline: solid var(--text) 2px;
-  border-radius: 5px;
-  isolation: isolate;
+  border-radius: 20rem;
+  overflow: hidden;
+  border: solid 2px black;
+  box-shadow: 0 0 20rem;
+  background-color: rgb(177, 177, 177);
+}
+
+.image-container img {
+  scale: 1;
+  transition: all 0.3s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.image-container:hover img {
+  scale: 1.1;
 }
 
 @media (min-width: 640px) {
