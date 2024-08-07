@@ -73,8 +73,13 @@
   border-radius: 20rem;
   overflow: hidden;
   border: solid 2px black;
-  box-shadow: 0 0 20rem;
+  box-shadow: 0 0 5rem rgb(43, 43, 43);
+  transition: all 0.3s ease-in-out;
   background-color: rgb(177, 177, 177);
+}
+
+.image-container:hover {
+  box-shadow: 0 0 0 black;
 }
 
 .image-container img {
