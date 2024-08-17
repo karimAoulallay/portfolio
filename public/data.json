@@ -32,7 +32,7 @@
         "mongodb",
         "mongoose"
       ],
-      "description": "This full-stack e-commerce application, built using the MERN stack (MongoDB, Express, React, Node.js), features user authentication with JWT and secure token management. It includes a dynamic product management system with data seeded from a JSON file, a custom checkout process, and HTTP-only cookies for enhanced security against CSRF attacks. This project highlights my skills in full-stack development and implementing advanced security features.",
+      "description": "Cette application e-commerce full-stack comprend une authentification utilisateur avec gestion sécurisée des tokens. Elle intègre un système de gestion dynamique des produits, un processus de paiement personnalisé et des cookies HTTP-only pour renforcer la sécurité. Ce projet démontre mes compétences en développement full-stack et en mise en œuvre de fonctionnalités de sécurité avancées.",
       "links": [
         {
           "src": "github",
