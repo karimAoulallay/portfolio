@@ -32,7 +32,7 @@
         "mongodb",
         "mongoose"
       ],
-      "description": "Cette application e-commerce full-stack comprend une authentification utilisateur avec gestion sécurisée des tokens. Elle intègre un système de gestion dynamique des produits, un processus de paiement personnalisé et des cookies HTTP-only pour renforcer la sécurité. Ce projet démontre mes compétences en développement full-stack et en mise en œuvre de fonctionnalités de sécurité avancées.",
+      "description": "This full-stack e-commerce application includes user authentication with management secure tokens. It integrates a system of dynamic product management, a process of Custom payment and HTTP-only cookies to enhance security. This project demonstrates my full-stack and in-house development skills Implementation of security features.",
       "links": [
         {
           "src": "github",
