@@ -12,7 +12,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="py-12" id="projects">
+    <section className="pt-12" id="projects">
       <div className="container">
         <Title title="projects" number="02." />
       </div>

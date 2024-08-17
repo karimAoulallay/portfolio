@@ -1,6 +1,6 @@
 const ProjectDetail = ({ project }) => {
   return (
-    <article className="full-width-screen pb-16">
+    <article className="full-width-screen">
       <img
         src={project.image}
         alt="club sport project image"
